@@ -1,0 +1,11 @@
+Site: GSI Reality Capture
+Owner claim RU: Юрков Александр
+Owner claim EN: Alexander Yurkov
+Proof ID: GSI-YURKOV-20260701T185645Z-2C60592C254C
+Created UTC: 2026-07-01T18:56:45.621Z
+Created Moscow time: 2026-07-01T21:56:45.621+03:00
+Public proof: /ownership-proof.json
+Manifest SHA-256: 90c9c7b41ce3c92dbaf947433e3dcecac9bb58616a3b214af0b50f00524b2c0f
+Signature: Ed25519
+Noindex: enabled
+Download guard: enabled

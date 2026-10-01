@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="author" content="Юрков Александр / Alexander Yurkov">
+  <meta name="copyright" content="© 2026 Юрков Александр. Все права защищены.">
+  <meta name="ownership-proof" content="/ownership-proof.json">
+  <!-- Ownership proof id: GSI-YURKOV-20260701T185645Z-2C60592C254C; owner claim: Юрков Александр / Alexander Yurkov; public proof: /ownership-proof.json; public key sha256: 502c1f2dac5f22db48d9df954c16acf0835e89b131ba542ce63a1fe5fcf47431 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ГСИ - оборудование для лазерного сканирования и Reality Capture</title>
+  <meta name="description" content="Подбор и демонстрация оборудования для мобильного и наземного лазерного сканирования, съемки с БПЛА, обработки облаков точек и работы в CAD/BIM.">
+  <link rel="alternate" hreflang="ru" href="index.html">
+  <link rel="alternate" hreflang="en" href="en/index.html">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+  <link rel="stylesheet" href="assets/css/style.css?v=35">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="ООО Геодезические приборы / ГСИ">
+      <span class="logo-mark">ГСИ</span>
+      <span class="logo-text">ООО «Геодезические приборы» <small>подбор / демонстрация / обучение</small></span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-expanded="false">Меню</button>
+    <nav class="nav" data-nav>
+      <a href="solutions.html">Подбор метода</a>
+      <a href="#catalog">Оборудование</a>
+      <a href="#cases">Примеры</a>
+      <a class="nav-cta" href="#selector">Подбор</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="lang-switch" aria-label="Переключение языка">
+      <a class="active" href="index.html" lang="ru">RU</a>
+      <a href="en/index.html" lang="en">EN</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="scan-hero">
+    <div class="scan-hero__bg" aria-hidden="true"></div>
+    <div class="container scan-hero__grid">
+      <div class="scan-hero__content">
+        <p class="eyebrow">ЛАЗЕРНОЕ СКАНИРОВАНИЕ / REALITY CAPTURE</p>
+        <h1>Подберем оборудование и способ съемки под ваш объект</h1>
+        <p class="lead">Расскажите об объекте и о том, какие данные нужны для дальнейшей работы. Мы предложим подходящий тип сканера и ПО, покажем оборудование на демонстрации и объясним, как контролировать результат.</p>
+        <div class="actions">
+          <a class="btn primary" href="#selector">Подобрать решение</a>
+          <a class="btn" href="#catalog">Посмотреть оборудование</a>
+        </div>
+        <div class="hero-proof" aria-label="Основные технологии">
+          <span>SLAM</span>
+          <span>наземное лазерное сканирование</span>
+          <span>БПЛА / фотограмметрия</span>
+          <span>GNSS / контроль</span>
+          <span>CAD / BIM / отчеты</span>
+        </div>
+      </div>
+      <aside class="hero-system" aria-label="Логика подбора решения">
+        <div class="system-topline">
+          <span>Как строится подбор</span>
+          <strong>объект → результат → комплект</strong>
+        </div>
+        <div class="system-flow">
+          <div><span>01</span><strong>Задача</strong><small>что снимаем и для чего</small></div>
+          <div><span>02</span><strong>Способ съемки</strong><small>SLAM, наземный сканер или БПЛА</small></div>
+          <div><span>03</span><strong>Комплект</strong><small>прибор, контроль, ПО, обучение</small></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section task-section" id="tasks">
+    <div class="container">
+      <div class="section-head">
+        <h2>Выберите свою задачу</h2>
+        <p>Не обязательно заранее знать тип сканера. Начните с объекта и данных, которые нужны для дальнейшей работы.</p>
+      </div>
+      <div class="task-grid compact-task-grid">
+        <a class="task-card task-card--compact" href="#selector" data-task-card="Промышленный объект / цех" data-task-object="industrial" data-task-priority="accuracy" data-task-output="cloud">
+          <span class="task-number">01</span>
+          <strong>Промышленный объект или цех</strong>
+          <p class="task-problem">Обмеры оборудования и конструкций в зонах реконструкции.</p>
+          <span class="task-cta">Подобрать метод</span>
+        </a>
+        <a class="task-card task-card--compact" href="#selector" data-task-card="Фасад / здание / помещение" data-task-object="facade" data-task-priority="accuracy" data-task-output="bim">
+          <span class="task-number">02</span>
+          <strong>Здание, фасад или помещение</strong>
+          <p class="task-problem">Фактическая геометрия для планов, сечений, CAD или BIM.</p>
+          <span class="task-cta">Разобрать объект</span>
+        </a>
+        <a class="task-card task-card--compact" href="#selector" data-task-card="Карьер / отвал / склад материала" data-task-object="quarry" data-task-priority="area" data-task-output="volume">
+          <span class="task-number">03</span>
+          <strong>Карьер, отвал или склад материала</strong>
+          <p class="task-problem">Поверхность, рельеф, объемы и сравнение съемок разных периодов.</p>
+          <span class="task-cta">Подобрать способ</span>
+        </a>
+        <a class="task-card task-card--compact" href="#selector" data-task-card="Подготовить основу для CAD или BIM" data-task-object="facade" data-task-priority="accuracy" data-task-output="bim">
+          <span class="task-number">04</span>
+          <strong>Подготовить основу для CAD или BIM</strong>
+          <p class="task-problem">Облако точек для ReCap, AutoCAD, Revit, Navisworks и смежного ПО.</p>
+          <span class="task-cta">Уточнить состав</span>
+        </a>
+        <a class="task-card task-card--compact" href="#selector" data-task-card="Проверить геометрию" data-task-object="industrial" data-task-priority="accuracy" data-task-output="calibration">
+          <span class="task-number">05</span>
+          <strong>Проверить геометрию</strong>
+          <p class="task-problem">Фасады, резервуары, конструкции и сложные промышленные узлы.</p>
+          <span class="task-cta">Разобрать требования</span>
+        </a>
+        <a class="task-card task-card--compact" href="#selector" data-task-card="Подбор оборудования">
+          <span class="task-number">06</span>
+          <strong>Оснастить съемочную группу</strong>
+          <p class="task-problem">Сканер, контрольное оборудование, ПО и обучение сотрудников.</p>
+          <span class="task-cta">Подобрать комплект</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact-section service-directions" id="methods">
+    <div class="container">
+      <div class="section-head">
+        <h2>Три основных способа съемки</h2>
+        <p>Сканер перемещается вместе с оператором или транспортным средством. Наземный лазерный сканер последовательно устанавливают на нескольких станциях. Для съемки больших открытых территорий используют БПЛА. На сложных объектах эти методы совмещают.</p>
+      </div>
+      <div class="method-grid">
+        <a class="method-card" href="goslam.html">
+          <img src="assets/img/backpack-operator-rocks.jpg" alt="Оператор с мобильным SLAM-сканером на каменистом участке">
+          <div>
+            <span class="tag">SLAM</span>
+            <h3>Мобильное лазерное сканирование</h3>
+            <ul class="service-points method-facts">
+              <li><strong>Для чего:</strong> быстрая съемка помещений, коридоров, лестниц, дорог и протяженных объектов.</li>
+              <li><strong>Преимущество:</strong> оператор ведет съемку в движении, без перестановки прибора.</li>
+              <li><strong>Точность:</strong> средняя погрешность обычно составляет порядка 1-2 см; фактический результат зависит от условий съемки, длины прохода и контроля.</li>
+              <li><strong>Учитывать:</strong> на длинных участках и при однообразной геометрии нужны возвраты в ранее снятые зоны и дополнительный контроль.</li>
+            </ul>
+            <span class="card-link">Подробнее о SLAM-сканировании</span>
+          </div>
+        </a>
+        <a class="method-card" href="laser-scanning.html">
+          <img src="assets/img/facade-vega-scan-station.jpg" alt="Наземный лазерный сканер VEGA у фасада">
+          <div>
+            <span class="tag">Наземное лазерное сканирование</span>
+            <h3>Съемка наземным лазерным сканером</h3>
+            <ul class="service-points method-facts">
+              <li><strong>Для чего:</strong> фасады, резервуары, оборудование и детальный контроль геометрии.</li>
+              <li><strong>Преимущество:</strong> отчет о регистрации позволяет проверить расхождения между сканами и их перекрытие.</li>
+              <li><strong>Точность:</strong> как правило, самая высокая среди представленных способов; у отдельных моделей погрешность измерения расстояния составляет около 3 мм на 100 м.</li>
+              <li><strong>Учитывать:</strong> участки, которые не видны с одной станции, требуют дополнительных станций и достаточного перекрытия сканов.</li>
+            </ul>
+            <span class="card-link">Подробнее о наземном сканировании</span>
+          </div>
+        </a>
+        <a class="method-card" href="#selector" data-tab-link="uav">
+          <img src="assets/img/quarry-wide-field.jpg" alt="Открытая площадка для съемки с БПЛА">
+          <div>
+            <span class="tag">БПЛА / фотограмметрия</span>
+            <h3>Съемка с БПЛА</h3>
+            <ul class="service-points method-facts">
+              <li><strong>Для чего:</strong> карьеры, отвалы, рельеф и большие открытые территории.</li>
+              <li><strong>Преимущество:</strong> один вылет позволяет охватить большую открытую территорию.</li>
+              <li><strong>Точность:</strong> зависит от полезной нагрузки, высоты полета, координатной привязки, контрольных точек и обработки данных.</li>
+              <li><strong>Учитывать:</strong> вертикальные поверхности и участки под навесами часто приходится доснимать наземными методами.</li>
+            </ul>
+            <span class="card-link">Подобрать вариант</span>
+          </div>
+        </a>
+      </div>
+      <p class="section-note">Спутниковый геодезический приемник (GNSS) используют для привязки к заданной системе координат и координатного контроля. Он дополняет лазерное сканирование или фотограмметрию, но не заменяет их.</p>
+      <div class="workflow-actions"><a class="btn" href="solutions.html#method-comparison">Сравнить способы съемки</a></div>
+    </div>
+  </section>
+
+  <section class="section differentiation-section" id="difference">
+    <div class="container">
+      <div class="section-head">
+        <h2>Что проверить до покупки</h2>
+        <p>Характеристики модели не показывают, как комплект будет работать на конкретном объекте. Это проверяют на демонстрации с учетом условий съемки и требуемого результата.</p>
+      </div>
+      <div class="difference-grid difference-grid--four">
+        <div class="difference-card"><span>01</span><strong>Исходные условия</strong><p>Уточняем площадь, рельеф, участки с ограниченной видимостью, систему координат и требуемый результат.</p></div>
+        <div class="difference-card"><span>02</span><strong>Демонстрация</strong><p>Показываем прибор, управление и типовые данные. Отдельно разбираем ограничения метода.</p></div>
+        <div class="difference-card"><span>03</span><strong>Состав комплекта</strong><p>Определяем, нужны ли GNSS-приемник, сканерные мишени, ПО, дополнительное крепление и рабочая станция для обработки.</p></div>
+        <div class="difference-card"><span>04</span><strong>Запуск оборудования</strong><p>Настраиваем комплект и обучаем команду съемке, обработке и проверке первых данных.</p></div>
+      </div>
+      <div class="difference-actions">
+        <a class="btn primary" href="#selector">Обсудить задачу с инженером</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section workflow-section" id="workflow">
+    <div class="container">
+      <div class="section-head">
+        <h2>Как данные попадают в рабочее ПО</h2>
+        <p>После съемки проверяют координатную привязку, регистрируют сканы, очищают облако и готовят данные для программы, в которой продолжится работа.</p>
+      </div>
+      <div class="workflow-map" aria-label="Схема получения данных Reality Capture">
+        <div class="workflow-step"><span>01</span><strong>Требования</strong><p>Определяют границы объекта, допустимую погрешность, систему координат и программу для дальнейшей работы.</p></div>
+        <div class="workflow-step"><span>02</span><strong>Съемка на объекте</strong><p>Сканер перемещают по объекту, наземный устанавливают на отдельных станциях, а съемку с БПЛА выполняют по полетному заданию.</p></div>
+        <div class="workflow-step"><span>03</span><strong>Обработка и проверка</strong><p>Данные регистрируют, привязывают к координатам, очищают и проверяют по контрольным измерениям.</p></div>
+        <div class="workflow-step"><span>04</span><strong>Передача</strong><p>Облако точек, цифровую модель поверхности, планы или сечения экспортируют в формат рабочего ПО.</p></div>
+      </div>
+      <div class="accuracy-note">
+        <strong>Важно</strong>
+        <p>Требования проекта задают допустимые погрешности. На фактический результат влияют условия на объекте, расположение станций наземного сканера, организация съемки сканером в движении, координатный контроль и обработка.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cases">
+    <div class="container">
+      <div class="section-head">
+        <h2>Примеры с реальными исходными данными</h2>
+        <p>В каждом примере указан объект, описаны способ съемки и контроль, приведены полученные данные.</p>
+      </div>
+      <div class="case-list compact-case-list">
+        <a class="case-card case-card--compact" href="laser-scanning.html#case-arctic-tank">
+          <div>
+            <span class="tag">РВС / VEGA VLS-370</span>
+            <h3>Резервуар за Полярным кругом</h3>
+            <dl class="case-facts compact-case-facts">
+              <div><dt>Задача</dt><dd>получить фактическую геометрию резервуара для калибровочного расчета.</dd></div>
+              <div><dt>Как снимали</dt><dd>13 сканов, сферические мишени, регистрация и очистка облака.</dd></div>
+              <div><dt>Что получили</dt><dd>облако точек и сетку для дальнейшего расчета.</dd></div>
+            </dl>
+          </div>
+          <div class="metric-grid compact">
+            <div><strong>13</strong><span>сканов</span></div>
+            <div><strong>9,72 мм</strong><span>средняя ошибка связи</span></div>
+          </div>
+        </a>
+        <a class="case-card case-card--compact" href="laser-scanning.html#case-vega-street">
+          <div>
+            <span class="tag">Фасад / VEGA</span>
+            <h3>Фасад: съемка с шести станций</h3>
+            <dl class="case-facts compact-case-facts">
+              <div><dt>Задача</dt><dd>получить единое облако точек фасада и прилегающей территории.</dd></div>
+              <div><dt>Как снимали</dt><dd>съемка с 6 станций, около 4 минут на каждой; после регистрации проверены расхождения и перекрытие сканов.</dd></div>
+              <div><dt>Что получили</dt><dd>единое облако и отчет о регистрации сканов.</dd></div>
+            </dl>
+          </div>
+          <div class="metric-grid compact">
+            <div><strong>6</strong><span>станций</span></div>
+            <div><strong>4,94 мм</strong><span>средняя ошибка регистрации</span></div>
+          </div>
+        </a>
+        <a class="case-card case-card--compact" href="scan-to-bim-workflow.html">
+          <div>
+            <span class="tag">Независимый пример / Scan-to-BIM</span>
+            <h3>Интерьер, облако точек и проверка модели</h3>
+            <dl class="case-facts compact-case-facts">
+              <div><dt>Задача</dt><dd>сопоставить фактическую геометрию с BIM-моделью.</dd></div>
+              <div><dt>Как работали</dt><dd>фотограмметрия, контрольные точки, ReCap, AutoCAD, Revit и Navisworks.</dd></div>
+              <div><dt>Что получили</dt><dd>облако точек, основу для CAD/BIM и результаты проверки модели.</dd></div>
+              <div><dt>Контекст</dt><dd>личный пример Александра Юркова, выполненный до работы с ГСИ.</dd></div>
+            </dl>
+          </div>
+          <div class="metric-grid compact">
+            <div><strong>9</strong><span>этапов</span></div>
+            <div><strong>CAD/BIM</strong><span>подготовка</span></div>
+            <div><strong>Контроль</strong><span>проверка модели</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section catalog-section" id="catalog">
+    <div class="container">
+      <div class="section-head">
+        <h2>Оборудование для разных способов съемки</h2>
+        <p>Ниже приведен краткий обзор. Характеристики и состав комплекта уточняются по карточкам моделей и каталогу ГСИ.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Категории оборудования">
+        <button class="tab-button active" type="button" role="tab" aria-selected="true" data-tab-target="slam">SLAM</button>
+        <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab-target="stationary">Наземные сканеры</button>
+        <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab-target="uav">БПЛА</button>
+      </div>
+      <div class="tab-panels">
+        <div class="tab-panel active" role="tabpanel" data-tab-panel="slam">
+          <div class="catalog-intro">
+            <span class="tag">Мобильное сканирование</span>
+            <h3>GoSLAM для съемки в движении</h3>
+            <p>Ручная, рюкзачная или автомобильная конфигурация.</p>
+          </div>
+          <div class="model-grid">
+            <a class="model-card" href="t300-pro.html">
+              <img src="assets/img/t300-vehicle-mounted.jpg" alt="GoSLAM T300 Pro на автомобиле">
+              <span class="model-label">GoSLAM</span>
+              <h4>T300 Pro</h4>
+              <p>300 м, 640 000 точек/с, заявленная погрешность облака точек ±10 мм.</p>
+            </a>
+            <a class="model-card" href="goslam.html">
+              <img src="assets/img/trajectory-control.jpg" alt="Проверка положения сканера по ходу съемки">
+              <span class="model-label">Линейка GoSLAM</span>
+              <h4>M40 / T50 / T100 Pro</h4>
+              <p>Дальность от 70 до 120 м; модели различаются дальностью сканирования и частотой измерений.</p>
+            </a>
+          </div>
+          <div class="model-specs">
+            <div class="model-specs__head"><h4>Ключевые модели</h4><a href="https://www.gsi.ru/catalog/laser_scanner/goslam" target="_blank" rel="noopener">Полный раздел GoSLAM</a></div>
+            <div class="spec-row"><strong>GoSLAM M40</strong><span>70 м / 200 000 точек/с / ±10 мм</span><small>компактная ручная съемка</small></div>
+            <div class="spec-row"><strong>GoSLAM T50</strong><span>75 м / 320 000 точек/с / ±10 мм</span><small>съемка в движении с контролем положения сканера</small></div>
+            <div class="spec-row"><strong>GoSLAM T100 Pro</strong><span>120 м / 640 000 точек/с / ±10 мм</span><small>дороги, протяженные объекты и площадки</small></div>
+          </div>
+        </div>
+        <div class="tab-panel" role="tabpanel" data-tab-panel="stationary">
+          <div class="catalog-intro">
+            <span class="tag">Наземное лазерное сканирование</span>
+            <h3>Наземные лазерные сканеры VEGA</h3>
+            <p>Фасады, резервуары, промышленная геометрия и открытые площадки.</p>
+          </div>
+          <div class="model-grid">
+            <a class="model-card" href="laser-scanning.html#case-arctic-tank">
+              <img src="assets/img/tank-vega-field-station.jpg" alt="VEGA VLS-370 на промышленном объекте">
+              <span class="model-label">VEGA</span>
+              <h4>VLS-370</h4>
+              <p>370 м, 500 000 точек/с, 5 мм на 100 м.</p>
+            </a>
+            <a class="model-card" href="laser-scanning.html#case-vega-street">
+              <img src="assets/img/facade-point-cloud-overview.jpg" alt="Облако точек фасада">
+              <span class="model-label">Пример</span>
+              <h4>Фасад и уличная сцена</h4>
+              <p>Съемка с нескольких станций, регистрация сканов и проверка отчета о регистрации.</p>
+            </a>
+          </div>
+          <div class="model-specs">
+            <div class="model-specs__head"><h4>Линейка VEGA</h4><a href="https://www.gsi.ru/catalog/laser_scanner/vega" target="_blank" rel="noopener">Полный раздел VEGA</a></div>
+            <div class="spec-row"><strong>VEGA VLS-370</strong><span>370 м / 500 000 точек/с / 5 мм на 100 м</span><small>фасады, резервуары, архитектура, рельеф</small></div>
+            <div class="spec-row"><strong>VEGA VLS-620</strong><span>620 м / 1 200 000 точек/с / 5 мм на 100 м</span><small>карьеры, тоннели, промышленные площадки</small></div>
+            <div class="spec-row"><strong>VEGA VLS-1500</strong><span>1500 м / 2 000 000 точек/с / 3 мм на 100 м</span><small>дальние измерения и крупные открытые объекты</small></div>
+          </div>
+        </div>
+        <div class="tab-panel" role="tabpanel" data-tab-panel="uav">
+          <div class="catalog-intro">
+            <span class="tag">БПЛА / фотограмметрия</span>
+            <h3>Съемка больших открытых территорий</h3>
+            <p>Площадь, рельеф, требуемые данные и способ контроля определяют метод съемки и состав комплекта.</p>
+          </div>
+          <div class="model-grid">
+            <div class="model-card">
+              <img src="assets/img/point-cloud-quarry.jpg" alt="Облако точек открытой площадки">
+              <span class="model-label">Результат</span>
+              <h4>Ортофотоплан, цифровая модель поверхности, облако точек</h4>
+              <p>Данные для анализа рельефа, расчета объемов, работы в Civil 3D или Surpac и подготовки отчета.</p>
+            </div>
+            <div class="model-card">
+              <img src="assets/img/quarry-wide-field.jpg" alt="Открытая промышленная площадка">
+              <span class="model-label">Комбинированная съемка</span>
+              <h4>БПЛА, SLAM и координатный контроль</h4>
+              <p>Участки, которые плохо видны сверху, дополнительно снимают наземными методами.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section selector-section lead-section" id="selector">
+    <div class="container lead-grid">
+      <div class="lead-copy">
+        <span class="tag">Предварительный подбор</span>
+        <h2>Опишите объект: подберем комплект</h2>
+        <p class="selector-lead">Укажите тип объекта, главное требование и нужный результат. Для уточнения состава комплекта понадобятся фотографии, размеры объекта и сведения о системе координат.</p>
+        <div class="selector-card compact-selector" data-selector>
+          <label>
+            <span>Тип объекта</span>
+            <select data-selector-object data-lead-object-sync>
+              <option value="industrial">Промышленный объект</option>
+              <option value="facade">Фасад / здание</option>
+              <option value="interior">Помещения / проходы</option>
+              <option value="quarry">Карьер / открытая площадка</option>
+              <option value="linear">Протяженный объект</option>
+              <option value="demo">Демо / выставочная визуализация</option>
+            </select>
+          </label>
+          <label>
+            <span>Главное требование</span>
+            <select data-selector-priority>
+              <option value="accuracy">Требования к точности</option>
+              <option value="speed">Скорость съемки</option>
+              <option value="area">Большая площадь</option>
+              <option value="access">Сложные условия на объекте</option>
+              <option value="presentation">Демонстрация результата</option>
+            </select>
+          </label>
+          <label>
+            <span>Что требуется на выходе</span>
+            <select data-selector-output data-lead-output-sync>
+              <option value="cloud">Рабочее облако точек</option>
+              <option value="bim">BIM-модель / чертежи</option>
+              <option value="volume">Объемы / рельеф</option>
+              <option value="calibration">Данные для калибровки / контроля геометрии</option>
+              <option value="visualization">Демо-визуализация</option>
+            </select>
+          </label>
+          <div class="selector-result" data-selector-result>
+            <span class="model-label">Рекомендация</span>
+            <h3>Наземное лазерное сканирование</h3>
+            <p>Если для промышленного объекта нужна подробная геометрия, обычно рассматривают наземное лазерное сканирование с нескольких станций. После съемки сканы регистрируют и проверяют отчет о регистрации.</p>
+          </div>
+        </div>
+        <div class="request-checklist">
+          <h3>Что прислать для подбора</h3>
+          <ul>
+            <li>тип объекта, площадь или протяженность;</li>
+            <li>какие данные нужны и в каком ПО с ними будут работать.</li>
+          </ul>
+        </div>
+      </div>
+      <form class="lead-form" data-lead-form>
+        <input type="hidden" name="selectorObject" data-lead-selector-object>
+        <input type="hidden" name="selectorPriority" data-lead-selector-priority>
+        <input type="hidden" name="selectorOutput" data-lead-selector-output>
+        <input type="hidden" name="selectorRecommendation" data-lead-selector-recommendation>
+        <input type="hidden" name="selectedTask" data-lead-selected-task>
+        <input type="hidden" name="pageSource" value="homepage-reality-capture">
+        <div class="form-grid">
+          <label><span>Имя</span><input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required></label>
+          <label><span>Компания</span><input type="text" name="company" autocomplete="organization" placeholder="Название организации"></label>
+          <label><span>Контакт для связи</span><input type="text" name="contact" placeholder="Телефон, почта или мессенджер" required></label>
+          <label>
+            <span>Тип объекта / задача</span>
+            <select name="objectType" data-lead-object>
+              <option>Промышленный объект / цех</option>
+              <option>Карьер / отвал / склад материала</option>
+              <option>Фасад / здание / помещение</option>
+              <option>Линейный или протяженный объект</option>
+              <option>Демо / выставочная визуализация</option>
+              <option>Подбор оборудования</option>
+              <option>Обучение сотрудников</option>
+            </select>
+          </label>
+          <label>
+            <span>Какой результат нужен</span>
+            <select name="deliverable" data-lead-output>
+              <option>Рабочее облако точек</option>
+              <option>LAS / LAZ / E57</option>
+              <option>RCP / RCS</option>
+              <option>Сечения / планы / фасады</option>
+              <option>BIM-модель / чертежи</option>
+              <option>Объемы / рельеф</option>
+              <option>Результаты проверки / отчет</option>
+              <option>Демо-визуализация / презентационные материалы</option>
+            </select>
+          </label>
+          <label class="full"><span>Комментарий по задаче</span><textarea name="comment" rows="5" data-lead-comment placeholder="Объект, город, площадь, сроки, препятствия и нужный результат"></textarea></label>
+        </div>
+        <fieldset class="checkbox-grid">
+          <legend>Что подготовить</legend>
+          <label><input type="checkbox" name="needDemo"> <span>демонстрацию</span></label>
+          <label><input type="checkbox" name="needOffer"> <span>коммерческое предложение</span></label>
+          <label><input type="checkbox" name="needWorkflow"> <span>консультацию по задаче</span></label>
+          <label><input type="checkbox" name="needTraining"> <span>обучение сотрудников</span></label>
+        </fieldset>
+        <div class="form-footer">
+          <button class="btn primary" type="submit" data-lead-submit="solution">Подобрать решение</button>
+          <p>Отправка заявок пока не подключена. Данные из формы не передаются.</p>
+        </div>
+        <p class="form-status" data-lead-status hidden>Заявка не отправлена: отправка данных пока не подключена.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div class="cta-band contact-copy">
+        <div>
+          <span class="tag">Следующий шаг</span>
+          <h2>Запросить демонстрацию или подбор комплекта</h2>
+          <p>Достаточно указать объект, требуемый результат и удобный способ связи.</p>
+        </div>
+      </div>
+      <form class="lead-form quick-lead-form" data-secondary-lead-form>
+        <div class="form-grid compact">
+          <label><span>Имя</span><input type="text" name="quickName" autocomplete="name" placeholder="Как к вам обращаться" required></label>
+          <label><span>Контакт</span><input type="text" name="quickContact" placeholder="Телефон, почта или мессенджер" required></label>
+          <label class="full"><span>Коротко о задаче</span><textarea name="quickComment" rows="4" placeholder="Объект, город, нужный результат"></textarea></label>
+        </div>
+        <fieldset class="checkbox-grid compact">
+          <legend>Что подготовить</legend>
+          <label><input type="checkbox" name="quickDemo"> <span>демонстрацию</span></label>
+          <label><input type="checkbox" name="quickOffer"> <span>коммерческое предложение</span></label>
+          <label><input type="checkbox" name="quickWorkflow"> <span>консультацию по задаче</span></label>
+          <label><input type="checkbox" name="quickTraining"> <span>обучение</span></label>
+        </fieldset>
+        <div class="form-footer"><button class="btn primary" type="submit">Отправить вводные</button></div>
+        <p class="form-status" data-secondary-status hidden>Заявка не отправлена: отправка данных пока не подключена.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>ООО «Геодезические приборы» / ГСИ. Оборудование для лазерного сканирования и Reality Capture.</span>
+    <span>© 2026 Юрков Александр. Все права защищены. Права на материалы сайта принадлежат Юркову Александру.</span>
+  </div>
+</footer>
+<a class="to-top" href="#" data-to-top aria-label="Наверх">Наверх</a>
+<script src="assets/js/download-guard.js?v=1"></script>
+<script src="assets/js/site.js?v=29"></script>
+</body>
+</html>

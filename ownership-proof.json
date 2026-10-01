@@ -1,0 +1,18 @@
+{
+  "proof_type": "public ownership marker",
+  "proof_id": "GSI-YURKOV-20260701T185645Z-2C60592C254C",
+  "owner_claim_ru": "Юрков Александр",
+  "owner_claim_en": "Alexander Yurkov",
+  "site_url": "external deployment deleted; local-only project copy",
+  "created_utc": "2026-07-01T18:56:45.621Z",
+  "created_moscow_time": "2026-07-01T21:56:45.621+03:00",
+  "public_notice_ru": "Материалы сайта и прототип Reality Capture заявлены как принадлежащие: Юрков Александр. Этот публичный файл связан с локальным SHA-256 манифестом и Ed25519-подписью.",
+  "public_notice_en": "The website materials and Reality Capture prototype are claimed by Alexander Yurkov. This public file is linked to a local SHA-256 manifest and an Ed25519 signature.",
+  "manifest_file": ".runtime/ownership-proof/ownership_manifest.json",
+  "manifest_sha256": "90c9c7b41ce3c92dbaf947433e3dcecac9bb58616a3b214af0b50f00524b2c0f",
+  "signature_algorithm": "Ed25519",
+  "manifest_signature_base64": "joyG9Mu4TwkVJEY/3hp7w37N+WHgle/tI7KGRP3bOSROpgKQae7bmUGkxQjrd/dhJB+FnOpA2rwSZdOHF6n+Dw==",
+  "public_key_sha256": "502c1f2dac5f22db48d9df954c16acf0835e89b131ba542ce63a1fe5fcf47431",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAaPucVOAi1+huyTMyPsW+zXjFwNuUOmWZl0ZBHLCwbtg=\n-----END PUBLIC KEY-----\n",
+  "verification_hint": "Verify ownership_manifest.json SHA-256 against manifest_sha256, then verify manifest_signature_base64 with public_key_pem. Preserve Netlify deploy records and local private key separately."
+}

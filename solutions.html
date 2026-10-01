@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="author" content="Юрков Александр / Alexander Yurkov">
+  <meta name="copyright" content="© 2026 Юрков Александр. Все права защищены.">
+  <meta name="ownership-proof" content="/ownership-proof.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Подбор способа съемки и оборудования Reality Capture | ГСИ</title>
+  <meta name="description" content="Сравнение мобильного SLAM-сканирования, наземного лазерного сканирования и съемки с БПЛА: задачи, оборудование, контроль, результаты и ограничения методов.">
+  <link rel="alternate" hreflang="ru" href="solutions.html">
+  <link rel="alternate" hreflang="en" href="en/solutions.html">
+  <link rel="alternate" hreflang="x-default" href="solutions.html">
+  <link rel="stylesheet" href="assets/css/style.css?v=35">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="ООО Геодезические приборы / ГСИ">
+      <span class="logo-mark">ГСИ</span>
+      <span class="logo-text">ООО «Геодезические приборы» <small>подбор / демонстрация / обучение</small></span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-expanded="false">Меню</button>
+    <nav class="nav" data-nav>
+      <a class="active" href="solutions.html">Подбор метода</a>
+      <a href="index.html#catalog">Оборудование</a>
+      <a href="index.html#cases">Примеры</a>
+      <a class="nav-cta" href="index.html#selector">Подбор</a>
+      <a href="index.html#contact">Контакты</a>
+    </nav>
+    <div class="lang-switch" aria-label="Переключение языка">
+      <a class="active" href="solutions.html" lang="ru">RU</a>
+      <a href="en/solutions.html" lang="en">EN</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container breadcrumbs"><a href="index.html">Главная</a> / Подбор метода</div>
+  <section class="page-hero solutions-hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">ЗАДАЧА / СПОСОБ СЪЕМКИ / ОБОРУДОВАНИЕ</p>
+        <h1>Как выбрать способ съемки и комплект оборудования</h1>
+        <p class="lead">Начните с результата: что требуется измерить, с какой детализацией и в какой системе координат. Эти условия определяют тип сканера, способ контроля и состав комплекта.</p>
+        <div class="actions">
+          <a class="btn primary" href="index.html#selector">Подобрать решение</a>
+          <a class="btn" href="#method-comparison">Сравнить методы</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <span class="tag">Что уточнить</span>
+        <div class="workflow-stack">
+          <div class="step"><span class="step-number">01</span><div><strong>Что нужно получить</strong><span>облако, объемы, CAD / BIM, контроль</span></div></div>
+          <div class="step"><span class="step-number">02</span><div><strong>Условия съемки</strong><span>видимость, препятствия, площадь, участки с ограниченным обзором</span></div></div>
+          <div class="step"><span class="step-number">03</span><div><strong>Как проверить</strong><span>GNSS, контрольные точки, регистрация сканов</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section task-section" id="start">
+    <div class="container">
+      <div class="section-head"><h2>Начните с требуемого результата</h2><p>Выберите ближайшую задачу. Ниже показаны подходящие способы съемки и варианты оборудования.</p></div>
+      <div class="task-grid compact-task-grid solutions-start-grid">
+        <a class="task-card task-card--compact" href="#scenario-site"><span class="task-number">01</span><strong>Быстро снять большую площадку</strong><p class="task-problem">Карьер, отвал, дорога или открытая промышленная территория.</p><span class="task-cta">Смотреть варианты</span></a>
+        <a class="task-card task-card--compact" href="#scenario-facade"><span class="task-number">02</span><strong>Зафиксировать геометрию объекта</strong><p class="task-problem">Фасад, конструкция, оборудование или резервуар.</p><span class="task-cta">Смотреть варианты</span></a>
+        <a class="task-card task-card--compact" href="#scenario-volume"><span class="task-number">03</span><strong>Получить данные для расчета объемов</strong><p class="task-problem">Поверхность, ортофотоплан и сравнение съемок разных периодов.</p><span class="task-cta">Смотреть варианты</span></a>
+        <a class="task-card task-card--compact" href="#scenario-bim"><span class="task-number">04</span><strong>Подготовить данные для CAD / BIM</strong><p class="task-problem">Облако точек, планы, сечения и основа для модели.</p><span class="task-cta">Смотреть варианты</span></a>
+        <a class="task-card task-card--compact" href="#scenario-interior"><span class="task-number">05</span><strong>Снять помещения и проходы</strong><p class="task-problem">Последовательная съемка этажей, коридоров и помещений со сложной планировкой.</p><span class="task-cta">Смотреть варианты</span></a>
+        <a class="task-card task-card--compact" href="#control"><span class="task-number">06</span><strong>Привязать облако к системе координат</strong><p class="task-problem">GNSS, контрольные точки или локальная система объекта.</p><span class="task-cta">Разобрать контроль</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section comparison-section" id="method-comparison">
+    <div class="container">
+      <div class="section-head"><h2>Мобильное SLAM-сканирование, наземный сканер или БПЛА</h2><p>Сравнение способов сбора данных до выбора конкретной модели оборудования.</p></div>
+      <div class="method-summary-grid" aria-label="Три способа съемки">
+        <article class="method-summary-card">
+          <div class="method-summary-card__head"><span>01</span><small>Съемка в движении</small></div>
+          <h3>Мобильное SLAM-сканирование</h3>
+          <p>Сканер движется вместе с оператором или автомобилем и регистрирует окружающую геометрию.</p>
+          <strong>Чаще применяют:</strong><span>в помещениях, коридорах, на дорогах и протяженных объектах.</span>
+        </article>
+        <article class="method-summary-card">
+          <div class="method-summary-card__head"><span>02</span><small>Отдельные станции</small></div>
+          <h3>Наземное лазерное сканирование</h3>
+          <p>Сканер последовательно устанавливают на нескольких станциях, а отдельные сканы затем регистрируют в единое облако точек.</p>
+          <strong>Чаще применяют:</strong><span>для фасадов, конструкций, оборудования и детального контроля геометрии.</span>
+        </article>
+        <article class="method-summary-card">
+          <div class="method-summary-card__head"><span>03</span><small>Съемка с БПЛА</small></div>
+          <h3>БПЛА / фотограмметрия</h3>
+          <p>БПЛА выполняет съемку по полетному заданию. Затем обрабатывают изображения или лидарные данные.</p>
+          <strong>Чаще применяют:</strong><span>на карьерах, отвалах и больших открытых территориях.</span>
+        </article>
+      </div>
+      <div class="table-wrap method-comparison-table" hidden aria-hidden="true">
+        <table>
+          <thead><tr><th>Критерий</th><th>Мобильное SLAM-сканирование</th><th>Наземное лазерное сканирование</th><th>БПЛА / фотограмметрия</th></tr></thead>
+          <tbody>
+            <tr><th>Как ведется съемка</th><td>сканер регистрирует окружающую геометрию во время движения оператора или автомобиля</td><td>сканер последовательно устанавливают на нескольких станциях</td><td>изображения или лидарные данные собирают по полетному заданию</td></tr>
+            <tr><th>Где применять</th><td>помещения, проходы, дороги и протяженные объекты</td><td>фасады, конструкции, оборудование и зоны детального контроля</td><td>карьеры, отвалы и большие открытые территории</td></tr>
+            <tr><th>Организация съемки</th><td>последовательная съемка по мере движения</td><td>съемка с нескольких станций вокруг объекта или внутри него</td><td>съемка с воздуха по полетному заданию</td></tr>
+            <tr><th>Продолжительность съемки</th><td>зависит от протяженности объекта, скорости движения и числа контрольных участков</td><td>зависит от числа станций и требуемой детализации</td><td>зависит от площади, параметров полета и числа вылетов</td></tr>
+            <tr><th>Координатный контроль</th><td>возврат в уже снятые зоны, контрольные точки, при необходимости GNSS</td><td>перекрытие сканов, марки, контрольные измерения и отчет о регистрации</td><td>опорные и контрольные точки, при необходимости GNSS</td></tr>
+            <tr><th>Основное ограничение</th><td>накопление ошибки при длительной съемке без возврата в ранее снятые зоны и на участках со слабой геометрией</td><td>время на перестановку прибора и регистрацию сканов</td><td>вертикальные поверхности, зоны под навесами и участки, скрытые от съемки сверху</td></tr>
+            <tr><th>Лесные участки</th><td>съемка вдоль дорог и просек; густая растительность, ветер и участки без устойчивых ориентиров требуют отдельного контроля</td><td>детальная съемка отдельных зон; растительность перекрывает видимость и увеличивает число станций</td><td>съемка крон и открытых участков; при плотном пологе фотограмметрия может не отображать поверхность земли</td></tr>
+            <tr><th>Тип оборудования</th><td>ручной, рюкзачный или автомобильный сканер</td><td>наземный лазерный сканер, штатив, плоские марки или сферические мишени</td><td>беспилотное воздушное судно, камера или лидар, средства координатного контроля</td></tr>
+            <tr><th>Результат</th><td>облако точек и результаты проверки по контрольным точкам</td><td>зарегистрированное облако точек, проекции, планы и сечения</td><td>ортофотоплан, цифровая модель поверхности и облако точек</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="section-note">Спутниковые измерения (GNSS) применяют для координатного контроля и привязки к заданной системе координат. Для лесного участка сначала определяют, что требуется отобразить: поверхность земли, кроны, отдельные деревья, дорогу или всю территорию.</p>
+    </div>
+  </section>
+
+  <section class="section workflow-matrix-section" id="scenarios">
+    <div class="container">
+      <div class="section-head"><h2>Типовые задачи и варианты оборудования</h2><p>В таблице показано, какое оборудование можно использовать, какие данные получить и что уточнить до подбора комплекта.</p></div>
+      <div class="workflow-matrix" aria-label="Типовые варианты съемки">
+        <div class="matrix-head"><span>Задача</span><span>Способ съемки и оборудование</span><span>Возможный результат</span><span>Что нужно уточнить</span></div>
+        <div class="matrix-row" id="scenario-site"><strong>Карьер / отвал / открытая площадка</strong><p>Открытую территорию снимают с БПЛА. Дороги и отдельные участки дополнительно снимают мобильным SLAM-сканером. Там, где нужна более подробная геометрия, применяют наземный лазерный сканер. GNSS-приемник используют для координатной привязки.</p><p>Облако точек, ортофотоплан и цифровая модель поверхности для Civil 3D, Surpac или технического отчета.</p><p>Площадь, рельеф, система координат, требования к привязке, участки с ограниченным обзором и сроки.</p></div>
+        <div class="matrix-row" id="scenario-facade"><strong>Фасад / здание</strong><p>Наземный лазерный сканер устанавливают на нескольких станциях. Плоские марки или сферические мишени используют для регистрации и контроля.</p><p>Облако точек, ортогональные проекции, планы, сечения и основа для CAD / BIM.</p><p>Видимость, высота, препятствия, требуемая детализация и допуски.</p></div>
+        <div class="matrix-row"><strong>Промышленный объект / цех</strong><p>Участки, где нужна подробная геометрия, снимают наземным лазерным сканером. Для помещений и проходов можно использовать мобильный SLAM-сканер. При необходимости методы совмещают.</p><p>Облако точек, сечения и данные для проектирования, сравнения с проектом или подготовки технического отчета.</p><p>Участки с ограниченным обзором, отражающие поверхности, режим работы площадки и требования безопасности.</p></div>
+        <div class="matrix-row" id="scenario-bim"><strong>Облако точек для CAD / BIM</strong><p>Наземный лазерный или SLAM-сканер выбирают с учетом объекта и требуемой детализации. Перед передачей в рабочее ПО облако регистрируют, очищают и проверяют.</p><p>Облако точек, уровни, оси, сечения и основа для модели или чертежей.</p><p>Состав модели, детализация, допуски и формат передачи.</p></div>
+        <div class="matrix-row" id="scenario-volume"><strong>Расчет и сравнение объемов</strong><p>Съемку выполняют с БПЛА, мобильным или наземным сканером. Для координатной привязки и построения поверхностей используют контрольные точки и профильное ПО.</p><p>Облако точек, ортофотоплан, цифровая модель поверхности и данные для сравнения съемок разных периодов.</p><p>Границы расчета, система координат, контроль и единая методика съемки по периодам.</p></div>
+        <div class="matrix-row"><strong>Лесной участок / просека</strong><p>Дороги и просеки снимают мобильным SLAM-сканером. Кроны и открытые участки снимают с БПЛА. Для координатного контроля используют GNSS-приемник или тахеометр.</p><p>Облако точек по дорогам, просекам и открытым участкам для последующего анализа.</p><p>Какие элементы нужно отобразить, плотность растительности, сезон, качество спутникового сигнала и способ контроля.</p></div>
+        <div class="matrix-row" id="scenario-interior"><strong>Помещения / сложные проходы</strong><p>Съемку мобильным SLAM-сканером заранее планируют так, чтобы оператор возвращался в ранее снятые зоны. Участки с повышенными требованиями к детализации можно снимать наземным сканером.</p><p>Облако точек для обмеров и подготовки данных в CAD или BIM.</p><p>Этажность, лестницы, участки с ограниченной видимостью, повторяющаяся геометрия и способ контроля.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="control">
+    <div class="container logic-grid">
+      <div class="logic-copy">
+        <span class="tag">Координаты и проверка</span>
+        <h2>Как подтверждают координаты и регистрацию сканов</h2>
+        <p>Положение облака проверяют по геодезической основе и контрольным точкам. Регистрацию отдельных сканов оценивают по перекрытиям, отчету о регистрации и независимым измерениям. При мобильном сканировании отдельно контролируют участки, где может накапливаться ошибка.</p>
+      </div>
+      <div class="logic-panel">
+        <div class="logic-row"><span>01</span><strong>Контрольные точки</strong><p>Проверяют положение облака и связывают его с заданной системой координат.</p></div>
+        <div class="logic-row"><span>02</span><strong>Спутниковые измерения (GNSS)</strong><p>GNSS-измерения применяют для привязки результатов съемки открытых площадок и протяженных объектов к заданной системе координат.</p></div>
+        <div class="logic-row"><span>03</span><strong>Локальная система</strong><p>Локальную систему применяют, когда измерения и проектные данные ведутся в координатах объекта.</p></div>
+        <div class="logic-row"><span>04</span><strong>Проверка регистрации</strong><p>По отчету о регистрации, перекрытиям и контрольным измерениям оценивают взаимное положение сканов.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section workflow-section" id="processing">
+    <div class="container">
+      <div class="section-head"><h2>Что происходит после съемки</h2><p>Сначала из оборудования экспортируют исходные файлы. Затем сканы объединяют, облако привязывают к системе координат, очищают и проверяют. Формат результата выбирают с учетом программы, в которой продолжится работа.</p></div>
+      <div class="workflow-map workflow-map--six" aria-label="Обработка данных после съемки">
+        <div class="workflow-step"><span>01</span><strong>Экспорт из оборудования</strong><p>Выгрузка исходных файлов: сканов, изображений, данных о положении сканера и сопутствующей служебной информации.</p></div>
+        <div class="workflow-step"><span>02</span><strong>Регистрация</strong><p>Объединение отдельных сканов или расчет положения сканера по ходу съемки.</p></div>
+        <div class="workflow-step"><span>03</span><strong>Проверка</strong><p>Оценка расхождений, положения на контрольных точках и перекрытия сканов.</p></div>
+        <div class="workflow-step"><span>04</span><strong>Очистка</strong><p>Удаление шума и лишних фрагментов.</p></div>
+        <div class="workflow-step"><span>05</span><strong>Экспорт результата</strong><p>LAS, LAZ, E57, RCP, RCS и другие форматы для дальнейшей работы.</p></div>
+        <div class="workflow-step"><span>06</span><strong>Работа в ПО</strong><p>CAD, BIM, расчет объемов, контроль геометрии или подготовка отчета.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section limitations-section" id="limitations">
+    <div class="container">
+      <div class="section-head"><h2>Что ограничивает каждый метод</h2><p>Эти условия стоит проверить до демонстрации и выбора оборудования.</p></div>
+      <div class="grid cards-3">
+        <div class="card"><span class="tag">Мобильное SLAM-сканирование</span><h3>Продолжительность съемки и окружающая геометрия</h3><p>На однообразных участках и при длительном движении без возврата в ранее снятые зоны может накапливаться ошибка. Привязка к заданной системе координат требует отдельного контроля.</p></div>
+        <div class="card"><span class="tag">Наземное лазерное сканирование</span><h3>Станции сканирования и видимость</h3><p>Для регистрации нужны достаточное перекрытие сканов и обзор объекта. Дополнительные станции увеличивают продолжительность съемки и объем обработки.</p></div>
+        <div class="card"><span class="tag">БПЛА</span><h3>Полет и скрытые поверхности</h3><p>Погода, режим площадки и ограничения на полеты влияют на возможность и сроки съемки с БПЛА. Вертикальные поверхности и участки под навесами могут потребовать наземной съемки.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="next-step">
+    <div class="container">
+      <div class="cta-band">
+        <div><span class="tag">Следующий шаг</span><h2>Подобрать решение</h2><p>Укажите объект, главное требование и нужный результат. Форма покажет предварительный вариант и подскажет, какие исходные данные прислать инженеру.</p></div>
+        <div class="cta-actions"><a class="btn primary" href="index.html#selector">Перейти к подбору</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><span>ООО «Геодезические приборы» / ГСИ. Оборудование для лазерного сканирования и Reality Capture.</span><span>© 2026 Юрков Александр. Все права защищены. Права на материалы сайта принадлежат Юркову Александру.</span></div></footer>
+<a class="to-top" href="#" data-to-top aria-label="Наверх">Наверх</a>
+<script src="assets/js/download-guard.js?v=1"></script>
+<script src="assets/js/site.js?v=29"></script>
+</body>
+</html>

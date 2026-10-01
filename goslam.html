@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="author" content="Юрков Александр / Alexander Yurkov">
+  <meta name="copyright" content="© 2026 Юрков Александр. Все права защищены.">
+  <meta name="ownership-proof" content="/ownership-proof.json">
+  <!-- Ownership proof id: GSI-YURKOV-20260701T185645Z-2C60592C254C; owner claim: Юрков Александр / Alexander Yurkov; public proof: /ownership-proof.json; public key sha256: 502c1f2dac5f22db48d9df954c16acf0835e89b131ba542ce63a1fe5fcf47431 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoSLAM: мобильные лазерные сканеры и применение | ГСИ</title>
+  <meta name="description" content="Мобильное лазерное сканирование GoSLAM: варианты установки, организация съемки, координатный контроль и обработка облака точек.">
+  <link rel="alternate" hreflang="ru" href="goslam.html">
+  <link rel="alternate" hreflang="en" href="en/goslam.html">
+  <link rel="alternate" hreflang="x-default" href="goslam.html">
+  <link rel="stylesheet" href="assets/css/style.css?v=35">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="ООО Геодезические приборы / ГСИ">
+      <span class="logo-mark">ГСИ</span>
+      <span class="logo-text">ООО «Геодезические приборы» <small>подбор / демонстрация / обучение</small></span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-expanded="false">Меню</button>
+    <nav class="nav" data-nav>
+      <a href="solutions.html">Подбор метода</a>
+      <a class="active" href="index.html#catalog">Оборудование</a>
+      <a href="index.html#cases">Примеры</a>
+      <a class="nav-cta" href="index.html#selector">Подбор</a>
+      <a href="index.html#contact">Контакты</a>
+    </nav>
+    <div class="lang-switch" aria-label="Переключение языка">
+      <a class="active" href="goslam.html" lang="ru">RU</a>
+      <a href="en/goslam.html" lang="en">EN</a>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container breadcrumbs"><a href="index.html">Главная</a> / GoSLAM</div>
+  <section class="page-hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Мобильное лазерное сканирование (SLAM)</p>
+        <h1>GoSLAM для мобильного лазерного сканирования</h1>
+        <p class="lead">Мобильный сканер регистрирует окружающую геометрию во время движения оператора или автомобиля. Такой способ применяют для быстрой съемки помещений, дорог, карьеров и промышленных площадок.</p>
+        <div class="actions">
+          <a class="btn primary" href="#scenarios">Варианты установки</a>
+          <a class="btn" href="t300-pro.html">GoSLAM T300 Pro</a>
+          <a class="btn" href="#quality">Контроль качества</a>
+        </div>
+      </div>
+      <figure class="media-panel">
+        <img src="assets/img/backpack-operator-rocks.jpg" alt="Оператор с мобильным SLAM-сканером на каменистом объекте">
+        <figcaption>Во время съемки оператор возвращается в ранее снятые зоны. Повторный проход дает системе общие участки для корректировки накопленной ошибки.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="scenarios">
+    <div class="container">
+      <div class="section-head"><h2>Варианты установки и применения</h2><p>Мобильный сканер можно использовать в ручной, рюкзачной или автомобильной конфигурации. Выбор зависит от протяженности объекта, способа перемещения и условий на площадке.</p></div>
+      <div class="grid cards-3">
+        <div class="card image-card"><img src="assets/img/field-operator-quarry.jpg" alt="Ручное SLAM-сканирование в карьере"><span class="tag">В руках</span><h3>Пешая съемка</h3><p>Ручную конфигурацию используют при съемке помещений, коридоров, лестниц, фасадов и участков, по которым может пройти оператор.</p></div>
+        <div class="card image-card"><img src="assets/img/backpack-operator-rocks.jpg" alt="Рюкзачная установка сканера"><span class="tag">Рюкзак</span><h3>Рюкзачная конфигурация</h3><p>Сканер и дополнительное оборудование размещают на рюкзачной платформе. Такой вариант используют для длительной пешей съемки и совместной работы с GNSS-приемником.</p></div>
+        <div class="card image-card"><img src="assets/img/t300-vehicle-mounted.jpg" alt="GoSLAM T300 на автомобиле"><span class="tag">Автомобиль</span><h3>Дороги и большие площадки</h3><p>Автомобильную установку используют для съемки проездов, карьеров, складов материала и промышленных территорий.</p></div>
+        <div class="card"><span class="tag">GNSS</span><h3>Привязка к координатам</h3><p>GNSS-приемник используют для привязки облака к заданной системе координат. Внутри зданий применяют контрольные точки или локальную систему объекта.</p></div>
+        <div class="card"><span class="tag">Горные работы</span><h3>Карьеры и отвалы</h3><p>Мобильный сканер применяют на проездах, рабочих площадках и складах материала. Облако затем готовят для Surpac, Civil 3D или другого профильного ПО.</p></div>
+        <div class="card"><span class="tag">CAD / BIM</span><h3>Облако для проектной группы</h3><p>После очистки и проверки облако используют в ReCap, AutoCAD, Revit, Navisworks и смежных программах.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="quality">
+    <div class="container grid two">
+      <div class="panel card image-card"><img src="assets/img/trajectory-control.jpg" alt="Проверка положения сканера и облака точек на экране"><span class="tag">Контроль</span><h2>Съемку планируют до выхода на объект</h2><p>Заранее определяют последовательность движения, возвраты в ранее снятые зоны и контрольные участки. На открытой территории дополнительно планируют привязку по GNSS или контрольным точкам.</p></div>
+      <a class="panel card" href="t300-pro.html"><span class="tag">Модель</span><h2>GoSLAM T300 Pro</h2><p>Модель с заявленной дальностью до 300 м предназначена для крупных площадок, карьеров и съемки с автомобиля. Характеристики и условия применения приведены в карточке.</p></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><h2>Что настроить перед первой съемкой</h2><p>До начала работ определяют порядок съемки, координатный контроль, параметры обработки и формат передачи данных.</p></div>
+      <div class="workflow-stack">
+        <div class="step"><span class="step-number">1</span><div><strong>Объект и задача</strong><span>какой объект снимают, с какой детализацией и для какого ПО</span></div></div>
+        <div class="step"><span class="step-number">2</span><div><strong>Организация съемки</strong><span>последовательность движения, скорость, возвраты в ранее снятые зоны и контрольные участки</span></div></div>
+        <div class="step"><span class="step-number">3</span><div><strong>Координатная привязка</strong><span>GNSS/RTK, радиоканал UHF, контрольные точки или локальная система координат</span></div></div>
+        <div class="step"><span class="step-number">4</span><div><strong>Обработка</strong><span>расчет положения сканера, фильтрация, очистка и экспорт в LAS, E57 или другой формат</span></div></div>
+        <div class="step"><span class="step-number">5</span><div><strong>Передача</strong><span>проверенное облако для чертежей, BIM, Surpac, Civil 3D, Navisworks или отчета</span></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>ООО «Геодезические приборы» / ГСИ - GoSLAM</span><span>© 2026 Юрков Александр. Все права защищены. Права на материалы сайта принадлежат Юркову Александру.</span></div></footer>
+<a class="to-top" href="#" data-to-top aria-label="Наверх">Наверх</a>
+<script src="assets/js/download-guard.js?v=1"></script>
+<script src="assets/js/site.js?v=29"></script>
+</body>
+</html>
